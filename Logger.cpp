@@ -1,4 +1,5 @@
-/*
+/*  Author -- Abhishek Verma
+
     A logger is a utility that:
         1. Record messages at different severity levels (debug, info warning, error, critical, etc)
         2. Can output to various destinations like console, file, network, etc
@@ -118,7 +119,7 @@ int main(int argc, char *argv[]) {
     std::string logFilename = "myLogs.txt";
 
     if(argc > 1) logFilename = argv[1];
-    
+
     Logger logger(logFilename, LogLevel::DEBUG); // LogFile name and minimum log level
 
     // Single thread logger
