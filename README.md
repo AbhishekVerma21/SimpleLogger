@@ -8,4 +8,5 @@ A logger is a utility that:
 
 
 Compile with: clang++ -std=c++17 .\Logger.cpp -o logger -pthread
+
 g++ is also fine to compile
