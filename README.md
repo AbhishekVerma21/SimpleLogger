@@ -1,4 +1,4 @@
-# SimpleLogger
+# SimpleLogger (Simple Logger in C++)
 
 ## A logger is a utility that:
 ###  1. Record messages at different severity levels (debug, info warning, error, critical, etc)
